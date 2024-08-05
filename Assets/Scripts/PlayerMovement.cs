@@ -4,14 +4,18 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 4f;
     [SerializeField] private float jumpHeight = 7f;
+    [SerializeField] private float footstepDelay;
 
     private float gravity = -15f;
     private Vector3 velocity;
     private CharacterController characterController;
 
+    private Vector3 moveDir;
+
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
+        InvokeRepeating(nameof(FootstepsSound), 0f, footstepDelay);
     }
 
     private void Update()
@@ -24,7 +28,7 @@ public class PlayerMovement : MonoBehaviour
         float xInput = Input.GetAxisRaw("Horizontal");
         float zInput = Input.GetAxisRaw("Vertical");
 
-        Vector3 moveDir = transform.right * xInput + transform.forward * zInput;
+        moveDir = transform.right * xInput + transform.forward * zInput;
 
         characterController.Move(moveSpeed * Time.deltaTime * moveDir.normalized);
 
@@ -37,5 +41,12 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && characterController.isGrounded)
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
+    }
+
+    private void FootstepsSound()
+    {
+        if (moveDir.magnitude == 0f || !characterController.isGrounded) return;
+
+        AkSoundEngine.PostEvent("Play_footsteps", gameObject);
     }
 }

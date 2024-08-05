@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="AudioySonidoTP_WwiseProject" GUID="{7613F174-4445-4151-8C49-91439E5D81DE}" Generator="2023.1.5.8522"/>
+	<CacheRoot>../../../../AudioySonidoTP_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{D12BB38E-5FC4-4E81-82C8-8896AF803EA0}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../AudioySonidoTP_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{6EA7E1F8-019E-4AC0-8BAB-94250A6A35A6}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../AudioySonidoTP_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{D4D1F1D9-7E05-454B-A4A9-BC18CA15A8FC}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{74755240-77BF-6545-A0F6-9C0FB4E7CFF4}</FileHash>
+</ProjectInfo>

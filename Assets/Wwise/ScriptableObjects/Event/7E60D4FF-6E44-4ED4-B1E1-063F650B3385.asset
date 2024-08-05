@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50bd73856db48db4582048c6c387d12a, type: 3}
+  m_Name: 7E60D4FF-6E44-4ED4-B1E1-063F650B3385
+  m_EditorClassIdentifier: 
+  objectName: Play_out
+  id: 2892716830
+  guid: 7E60D4FF-6E44-4ED4-B1E1-063F650B3385

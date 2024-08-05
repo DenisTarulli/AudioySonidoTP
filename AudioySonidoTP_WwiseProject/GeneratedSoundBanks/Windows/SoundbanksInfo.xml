@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{29683048-4564-120F-3AD7-1A9D624E48FA}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="833135867" Name="Resonance Audio Renderer (Custom)" LibName="Resonance Audio Renderer" LibId="6557955"/>
+				</Custom>
+				<ShareSets>
+					<Plugin Id="3546444380" Name="Big_Garage1" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="2903397179" Name="Ambisonics">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="833135867"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="Reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3546444380"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="84696434" Name="M">
+					<States>
+						<State Id="678209053" Name="Two"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1064933119" Name="One"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{043C7A9D-A1C1-C5F1-7DE4-EAA01F4E0625}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="29307102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Radio interference.wav</ShortName>
+					<CachePath>SFX/Radio interference_8639CBE7.wem</CachePath>
+				</File>
+				<File Id="102274556" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Mezcla.wav</ShortName>
+					<CachePath>SFX/Mezcla_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="114230403" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spring wave.wav</ShortName>
+					<CachePath>SFX/Spring wave_818F3B66.wem</CachePath>
+				</File>
+				<File Id="127435418" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sunday_bass.wav</ShortName>
+					<CachePath>SFX/Sunday_bass_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="133266283" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Player_Footstep_09.wav</ShortName>
+					<CachePath>SFX/Footsteps/Player_Footstep_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="243763622" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FTL jump.wav</ShortName>
+					<CachePath>SFX/FTL jump_818F3B66.wem</CachePath>
+				</File>
+				<File Id="282434805" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Player_Footstep_02.wav</ShortName>
+					<CachePath>SFX/Footsteps/Player_Footstep_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="403670059" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Player_Land.wav</ShortName>
+					<CachePath>SFX/Footsteps/Player_Land_818F3B66.wem</CachePath>
+				</File>
+				<File Id="462747108" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Player_Footstep_03.wav</ShortName>
+					<CachePath>SFX/Footsteps/Player_Footstep_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="569060572" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience.wav</ShortName>
+					<CachePath>SFX/Ambience_003C6C9F.wem</CachePath>
+				</File>
+				<File Id="573794150" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Player_Footstep_01.wav</ShortName>
+					<CachePath>SFX/Footsteps/Player_Footstep_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="580434669" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sunday_rythm.wav</ShortName>
+					<CachePath>SFX/Sunday_rythm_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="598484106" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Player_Footstep_05.wav</ShortName>
+					<CachePath>SFX/Footsteps/Player_Footstep_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="678985199" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Player_Footstep_10.wav</ShortName>
+					<CachePath>SFX/Footsteps/Player_Footstep_10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="713289778" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Player_Footstep_04.wav</ShortName>
+					<CachePath>SFX/Footsteps/Player_Footstep_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="746241394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sunday_drums.wav</ShortName>
+					<CachePath>SFX/Sunday_drums_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="791493398" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Player_Footstep_07.wav</ShortName>
+					<CachePath>SFX/Footsteps/Player_Footstep_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="793472592" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Player_Footstep_06.wav</ShortName>
+					<CachePath>SFX/Footsteps/Player_Footstep_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="842986164" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footsteps\Player_Footstep_08.wav</ShortName>
+					<CachePath>SFX/Footsteps/Player_Footstep_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="979425301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Transition.wav</ShortName>
+					<CachePath>SFX/Transition_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3854155799" Name="Play_footsteps" DurationType="OneShot" DurationMin="0.25516668" DurationMax="0.34583333">
+					<MediaRefs>
+						<MediaRef Id="133266283"/>
+						<MediaRef Id="282434805"/>
+						<MediaRef Id="403670059"/>
+						<MediaRef Id="462747108"/>
+						<MediaRef Id="573794150"/>
+						<MediaRef Id="598484106"/>
+						<MediaRef Id="678985199"/>
+						<MediaRef Id="713289778"/>
+						<MediaRef Id="791493398"/>
+						<MediaRef Id="793472592"/>
+						<MediaRef Id="842986164"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2514520739" Name="Play_in" DurationType="OneShot" DurationMin="2.53" DurationMax="2.53">
+					<MediaRefs>
+						<MediaRef Id="243763622"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2892716830" Name="Play_out" DurationType="OneShot" DurationMin="4.3448524" DurationMax="4.3448524">
+					<MediaRefs>
+						<MediaRef Id="114230403"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2953849999" Name="Play_Radio" MaxAttenuation="30" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="29307102"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1281810935" Name="Start" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="569060572"/>
+						<MediaRef Id="979425301"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="84696434" Id="1064933119"/>
+							<MediaRefs>
+								<MediaRef Id="127435418"/>
+								<MediaRef Id="580434669"/>
+								<MediaRef Id="746241394"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="84696434" Id="678209053"/>
+							<MediaRefs>
+								<MediaRef Id="102274556"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1028220228" Name="UnMute_Sunday_drums" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="506531199" Name="UnMute_Sunday_rythm" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="84696434" Name="M">
+					<States>
+						<State Id="678209053" Name="Two"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1064933119" Name="One"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{11CBE5F5-A288-83DC-4CAB-B0DCBFCB7E8C}</FileHash>
+</SoundBanksInfo>

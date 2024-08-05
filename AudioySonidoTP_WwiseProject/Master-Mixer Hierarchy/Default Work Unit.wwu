@@ -9,6 +9,51 @@
 							<ObjectRef Name="System" ID="{02BD5426-12DF-4178-90FE-A35A1B078823}" WorkUnitID="{10266263-9790-4DC5-8DD1-34576EA7ECD2}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Ambisonics" ID="{6366CEC7-BF81-49D3-9770-31CBAAC9D769}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>528</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{96828940-795C-4604-8EC2-F54A46E9854F}" ShortID="992613405">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Resonance Audio Renderer (Custom)" ID="{D799CE7C-C266-46CC-B2C9-525B90E38633}" ShortID="833135867" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<AuxBus Name="Reverb" ID="{71C65147-0F02-446C-9C6D-B8E5CFD74D9A}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{6D12E759-AF65-44EE-BA9E-B0F5EDE65F4C}" ShortID="306902201">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Big_Garage1" ID="{172402A8-22F4-40FC-BE1D-5269594CB633}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

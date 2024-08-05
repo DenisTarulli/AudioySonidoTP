@@ -38,8 +38,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 8d25539a02d4064fa414da56d2cf801f
     GuidInternal: 
-    m_lastTime: -8584788738958849202
+    m_lastTime: -8584787919963067907
     List:
+    - name: Ambisonics
+      guid: c7ce666381bfd349977031cbaac9d769
+      id: 2903397179
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d25539a02d4064fa414da56d2cf801f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambisonics
+        ObjectType: 2
+        guid: c7ce666381bfd349977031cbaac9d769
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambisonics
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -54,6 +71,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Reverb
+      guid: 4751c671020f6c449c6db8e5cfd74d9a
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 8d25539a02d4064fa414da56d2cf801f
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb
+        ObjectType: 1
+        guid: 4751c671020f6c449c6db8e5cfd74d9a
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,8 +100,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f13564590b9efc459c55ba83d320edfb
     GuidInternal: 
-    m_lastTime: -8584788738959279198
-    List: []
+    m_lastTime: -8584788001390509003
+    List:
+    - name: Main
+      guid: 64e93868674fd04588275b933ce6f19c
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f13564590b9efc459c55ba83d320edfb
+      - ElementName: Main
+        ObjectType: 7
+        guid: 64e93868674fd04588275b933ce6f19c
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +128,127 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b6eb2c76bc38ef429f58f80a70def2f3
     GuidInternal: 
-    m_lastTime: -8584788738959169208
-    List: []
+    m_lastTime: -8584787800329935450
+    List:
+    - name: Play_footsteps
+      guid: cb50a9eee4b71e408a1f3958e97f91ba
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b6eb2c76bc38ef429f58f80a70def2f3
+      - ElementName: Play_footsteps
+        ObjectType: 3
+        guid: cb50a9eee4b71e408a1f3958e97f91ba
+      Path: Events\Default Work Unit\Play_footsteps
+      maxAttenuation: 0
+      maxDuration: 0.34583333
+      minDuration: 0.25516668
+    - name: Play_in
+      guid: d00c38299c27074892c2c9162d8f54c3
+      id: 2514520739
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b6eb2c76bc38ef429f58f80a70def2f3
+      - ElementName: Play_in
+        ObjectType: 3
+        guid: d00c38299c27074892c2c9162d8f54c3
+      Path: Events\Default Work Unit\Play_in
+      maxAttenuation: 0
+      maxDuration: 2.53
+      minDuration: 2.53
+    - name: Play_out
+      guid: ffd4607e446ed44eb1e1063f650b3385
+      id: 2892716830
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b6eb2c76bc38ef429f58f80a70def2f3
+      - ElementName: Play_out
+        ObjectType: 3
+        guid: ffd4607e446ed44eb1e1063f650b3385
+      Path: Events\Default Work Unit\Play_out
+      maxAttenuation: 0
+      maxDuration: 4.3448524
+      minDuration: 4.3448524
+    - name: Play_Radio
+      guid: fdee2df384d16545835b21a59960b3d1
+      id: 2953849999
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b6eb2c76bc38ef429f58f80a70def2f3
+      - ElementName: Play_Radio
+        ObjectType: 3
+        guid: fdee2df384d16545835b21a59960b3d1
+      Path: Events\Default Work Unit\Play_Radio
+      maxAttenuation: 30
+      maxDuration: -1
+      minDuration: -1
+    - name: Start
+      guid: f2bed38cd329a444b11eabba3c13fb35
+      id: 1281810935
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b6eb2c76bc38ef429f58f80a70def2f3
+      - ElementName: Start
+        ObjectType: 3
+        guid: f2bed38cd329a444b11eabba3c13fb35
+      Path: Events\Default Work Unit\Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UnMute_Sunday_drums
+      guid: 8c7833ada8eb6f4fbed6340fb86c3fc1
+      id: 1028220228
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b6eb2c76bc38ef429f58f80a70def2f3
+      - ElementName: UnMute_Sunday_drums
+        ObjectType: 3
+        guid: 8c7833ada8eb6f4fbed6340fb86c3fc1
+      Path: Events\Default Work Unit\UnMute_Sunday_drums
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: UnMute_Sunday_rythm
+      guid: 84675a795c7aef42b4e340c2d008e48a
+      id: 506531199
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b6eb2c76bc38ef429f58f80a70def2f3
+      - ElementName: UnMute_Sunday_rythm
+        ObjectType: 3
+        guid: 84675a795c7aef42b4e340c2d008e48a
+      Path: Events\Default Work Unit\UnMute_Sunday_rythm
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -108,8 +275,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 76004696841f344885368ad979d4379b
     GuidInternal: 
-    m_lastTime: -8584788738959109205
-    List: []
+    m_lastTime: -8584787831987439327
+    List:
+    - name: M
+      guid: 888866ffb62a9d47b753663bfc852b10
+      id: 84696434
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 76004696841f344885368ad979d4379b
+      - ElementName: M
+        ObjectType: 9
+        guid: 888866ffb62a9d47b753663bfc852b10
+      Path: States\Default Work Unit\M
+      values:
+      - name: None
+        guid: ccfe81658649754fb4743d11185a2126
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 76004696841f344885368ad979d4379b
+        - ElementName: M
+          ObjectType: 9
+          guid: 888866ffb62a9d47b753663bfc852b10
+        - ElementName: None
+          ObjectType: 8
+          guid: ccfe81658649754fb4743d11185a2126
+      - name: One
+        guid: 80dccd8ce348464aaa412aacf490ce5d
+        id: 1064933119
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 76004696841f344885368ad979d4379b
+        - ElementName: M
+          ObjectType: 9
+          guid: 888866ffb62a9d47b753663bfc852b10
+        - ElementName: One
+          ObjectType: 8
+          guid: 80dccd8ce348464aaa412aacf490ce5d
+      - name: Two
+        guid: 5c84c1f64e7e8344aa7d10d816a36bc7
+        id: 678209053
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 76004696841f344885368ad979d4379b
+        - ElementName: M
+          ObjectType: 9
+          guid: 888866ffb62a9d47b753663bfc852b10
+        - ElementName: Two
+          ObjectType: 8
+          guid: 5c84c1f64e7e8344aa7d10d816a36bc7
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +372,7 @@ MonoBehaviour:
     m_lastTime: -8584788738958622329
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 020000000300000004000000050000000600000007000000090000000e0000000f000000100000004b0100004c0100004d010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

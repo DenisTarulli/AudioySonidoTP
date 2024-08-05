@@ -1,0 +1,39 @@
+Event	ID	Name			Wwise Object Path	Notes
+	506531199	UnMute_Sunday_rythm			\Default Work Unit\UnMute_Sunday_rythm	
+	1028220228	UnMute_Sunday_drums			\Default Work Unit\UnMute_Sunday_drums	
+	1281810935	Start			\Default Work Unit\Start	
+	2514520739	Play_in			\Default Work Unit\Play_in	
+	2892716830	Play_out			\Default Work Unit\Play_out	
+	2953849999	Play_Radio			\Default Work Unit\Play_Radio	
+	3854155799	Play_footsteps			\Default Work Unit\Play_footsteps	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	84696434	M			\Default Work Unit\M	
+
+State	ID	Name	State Group			Notes
+	678209053	Two	M			
+	748895195	None	M			
+	1064933119	One	M			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	29307102	Radio interference	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Radio interference_8639CBE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Radio interference		2685436
+	102274556	Mezcla	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Mezcla_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Mx\Song 2 playlist\Mezcla\Mezcla		2822544
+	114230403	Spring wave	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Spring wave_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Spring wave		766528
+	127435418	Sunday_bass	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Sunday_bass_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Mx\Song 1 playlist\Song\Sunday_bass		2822496
+	133266283	Player_Footstep_09	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Footsteps\Player_Footstep_09_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep_09		33296
+	243763622	FTL jump	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\FTL jump_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\FTL jump		446436
+	282434805	Player_Footstep_02	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Footsteps\Player_Footstep_02_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep_02		26364
+	403670059	Player_Land	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Footsteps\Player_Land_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Land		24592
+	462747108	Player_Footstep_03	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Footsteps\Player_Footstep_03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep_03		29044
+	569060572	Ambience	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Ambience_003C6C9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience		21442976
+	573794150	Player_Footstep_01	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Footsteps\Player_Footstep_01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep_01		25472
+	580434669	Sunday_rythm	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Sunday_rythm_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Mx\Song 1 playlist\Song\Sunday_rythm		2822496
+	598484106	Player_Footstep_05	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Footsteps\Player_Footstep_05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep_05		32100
+	678985199	Player_Footstep_10	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Footsteps\Player_Footstep_10_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep_10		30966
+	713289778	Player_Footstep_04	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Footsteps\Player_Footstep_04_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep_04		31812
+	746241394	Sunday_drums	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Sunday_drums_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Mx\Song 1 playlist\Song\Sunday_drums		2822496
+	791493398	Player_Footstep_07	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Footsteps\Player_Footstep_07_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep_07		28444
+	793472592	Player_Footstep_06	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Footsteps\Player_Footstep_06_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep_06		29964
+	842986164	Player_Footstep_08	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Footsteps\Player_Footstep_08_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Player_Footstep_08		30810
+	979425301	Transition	E:\Unity proyects\AudioySonidoTP\AudioySonidoTP_WwiseProject\.cache\Windows\SFX\Transition_FBC78EF0.wem		\Interactive Music Hierarchy\Default Work Unit\Transition\Transition		442868
+

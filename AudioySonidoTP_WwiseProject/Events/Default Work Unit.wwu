@@ -1,6 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{762CEBB6-38BC-42EF-9F58-F80A70DEF2F3}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{762CEBB6-38BC-42EF-9F58-F80A70DEF2F3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{762CEBB6-38BC-42EF-9F58-F80A70DEF2F3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Start" ID="{8CD3BEF2-29D3-44A4-B11E-ABBA3C13FB35}">
+					<ChildrenList>
+						<Action Name="" ID="{F5131361-5B2C-40F7-B6AB-9A8F19D014EF}" ShortID="1012884767">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{FF7CE040-47F6-4599-BE90-0C7B7B70AF8C}" WorkUnitID="{4DA0E52D-1666-4D46-9F38-3F5E0004952F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5D79BD0F-084F-4A33-A6EA-E2927308924F}" ShortID="368737382">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Mx" ID="{831642FF-052B-4782-8E7B-6F8DA474D310}" WorkUnitID="{A2035B28-1A9D-4E53-B782-3C8B6C19E0CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5FFCD9B8-2CD7-41B3-A14E-418FE4FAC67D}" ShortID="780642476">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sunday_drums" ID="{440C7E0D-5BC3-47C4-9E15-5F078FB35A82}" WorkUnitID="{A2035B28-1A9D-4E53-B782-3C8B6C19E0CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{36FE2575-0629-4B1A-99D5-80AADE07F196}" ShortID="179409111">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="4"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sunday_rythm" ID="{5942A76F-4174-44A8-A843-ED8B2DA64DFE}" WorkUnitID="{A2035B28-1A9D-4E53-B782-3C8B6C19E0CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_in" ID="{29380CD0-279C-4807-92C2-C9162D8F54C3}">
+					<ChildrenList>
+						<Action Name="" ID="{F26321C0-68F3-4A39-B21B-EF55AFD6AF27}" ShortID="1066181567">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FTL jump" ID="{FF8BE6D5-3A5E-43F6-8ACC-F0A0101F41F2}" WorkUnitID="{4DA0E52D-1666-4D46-9F38-3F5E0004952F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2B4F53BE-389E-4F49-9A88-8D6DBE9F9BEF}" ShortID="908267576">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Pitch" Type="int32" Value="-1200"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{FF7CE040-47F6-4599-BE90-0C7B7B70AF8C}" WorkUnitID="{4DA0E52D-1666-4D46-9F38-3F5E0004952F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_out" ID="{7E60D4FF-6E44-4ED4-B1E1-063F650B3385}">
+					<ChildrenList>
+						<Action Name="" ID="{06007881-B334-40E5-BD0D-46A390127A5A}" ShortID="610242582">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spring wave" ID="{F6E03706-4027-4F5F-9BF7-41E905508A20}" WorkUnitID="{4DA0E52D-1666-4D46-9F38-3F5E0004952F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{79A29075-6647-46DE-A799-5AEFB26166F2}" ShortID="456107853">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{FF7CE040-47F6-4599-BE90-0C7B7B70AF8C}" WorkUnitID="{4DA0E52D-1666-4D46-9F38-3F5E0004952F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Radio" ID="{F32DEEFD-D184-4565-835B-21A59960B3D1}">
+					<ChildrenList>
+						<Action Name="" ID="{5551F7F1-558E-40CB-85A7-A104F8F7B343}" ShortID="523473126">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Radio interference" ID="{1F4C1ABC-B6C1-4DFC-9D66-FC31A5E26735}" WorkUnitID="{4DA0E52D-1666-4D46-9F38-3F5E0004952F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_footsteps" ID="{EEA950CB-B7E4-401E-8A1F-3958E97F91BA}">
+					<ChildrenList>
+						<Action Name="" ID="{56A29359-6022-4463-B963-57F46629A5E3}" ShortID="384252685">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{14EF3193-C809-4B01-95B2-8F3AD90170A9}" WorkUnitID="{4DA0E52D-1666-4D46-9F38-3F5E0004952F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_Sunday_drums" ID="{AD33788C-EBA8-4F6F-BED6-340FB86C3FC1}">
+					<ChildrenList>
+						<Action Name="" ID="{FA553E0D-56D8-4075-A1D0-6B342F020E84}" ShortID="479799477">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sunday_drums" ID="{440C7E0D-5BC3-47C4-9E15-5F078FB35A82}" WorkUnitID="{A2035B28-1A9D-4E53-B782-3C8B6C19E0CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnMute_Sunday_rythm" ID="{795A6784-7A5C-42EF-B4E3-40C2D008E48A}">
+					<ChildrenList>
+						<Action Name="" ID="{3F2C29D2-0F60-415F-8CB1-05A8D59D827D}" ShortID="339597553">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sunday_rythm" ID="{5942A76F-4174-44A8-A843-ED8B2DA64DFE}" WorkUnitID="{A2035B28-1A9D-4E53-B782-3C8B6C19E0CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
